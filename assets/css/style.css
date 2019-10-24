@@ -1,5 +1,13 @@
+body {
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+}
 #profilePic {
-    max-width: 20%;
+    max-width: 25%;
+    float:right;
+    position: relative;
+    top: 120px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #navbar {
@@ -26,7 +34,7 @@
   }
   @media (min-width: 1200px) {
     .container {
-      width: 1170px;
+      width: 1060px;
     }
   }
 
@@ -61,6 +69,7 @@
       margin-left: 40px;
   }
 
+
   .socialMedia {
       font-size: 30px;
       color: white;
@@ -69,3 +78,34 @@
  .pages {
      padding-top: 6px;
  }
+
+ #jumbotron {
+     height: 500px;
+     background-color: white;
+     box-shadow: 0 0 10px 0 #1a1a1a;
+ }
+
+ #jumbotronContent {
+     padding-top: 120px;
+     float:left;
+     max-width: 570px;
+ }
+
+ #jumbotronHeader {
+     font-weight: bold;
+     font-size: 68px;
+     padding-bottom: 16px;
+ }
+
+ #headerSubtext {
+     font-size: 24px;
+     line-height: 32px;
+     padding-bottom: 16px;
+ }
+
+ #headerParagraphText {
+    font-size: 20px;
+    line-height: 26px;
+ }
+
+
