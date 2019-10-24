@@ -33,7 +33,39 @@
   li {
       display: inline;
       float: right;
-      padding: 10px;
-      color: white;
-      font-style: 
+      padding: 0 14px 0 14px;
+      font-family: 'Roboto', sans-serif;
+      list-style-type: none;
   }
+
+  a {
+      color: white;
+      text-decoration: none;
+  }
+
+  #logo {
+      display: inline;
+      float: left;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+      color: white;
+      padding-top: 6px;
+  }
+
+  #navbarContent {
+      padding-top: 24px;
+  }
+
+  
+  .fa-linkedin-in {
+      margin-left: 40px;
+  }
+
+  .socialMedia {
+      font-size: 30px;
+      color: white;
+  }
+
+ .pages {
+     padding-top: 6px;
+ }
