@@ -197,8 +197,18 @@ footer {
 }
 
 #aboutJumbotron {
-    height: 700px;
+    height: 740px;
     background-color: white;
     box-shadow: 0 0 10px 0 #636363;
 }
 
+#aboutJumbotronContent {
+    padding-top: 60px;
+    float:left;
+    max-width: 570px;
+}
+
+#aboutHeaderParagraphText {
+    font-size: 18px;
+    line-height: 26px;
+}
