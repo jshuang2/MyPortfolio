@@ -174,4 +174,31 @@ footer {
     color: white;
 }
 
+/* about.html specific styling begins here */
+
+#aboutMeHeader {
+    text-align: center;
+    padding-top: 60px;
+    font-weight: bold;
+    font-size: 68px;
+ }
+
+.headerLineShort {
+    height: 1px;
+    background: #DDD;
+    border-bottom: #FFF solid 1px;
+    margin: 20px auto;
+    position: relative;
+    width: 50%;
+}
+
+.centerText {
+    text-align: center;
+}
+
+#aboutJumbotron {
+    height: 700px;
+    background-color: white;
+    box-shadow: 0 0 10px 0 #636363;
+}
 
